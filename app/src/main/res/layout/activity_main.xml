@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="无动画添加多张图片"
+        android:onClick="addMutilImgNoAnimClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一次性添加多张图片"
+        android:onClick="addMutilImgClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异步加载图片"
+        android:onClick="addAsyncMutilImgClick"
+        />
+
+    <com.aaron.dragview.demo.view.DragLinearView
+        android:id="@+id/dragLinerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
